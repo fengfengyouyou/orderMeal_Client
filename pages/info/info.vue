@@ -5,8 +5,10 @@
 		</view>
 		<view class="art-content">
 			<rich-text :nodes="news.content"></rich-text>
-
 		</view>
+		<picker mode="selector" value= '0' :range="city" @change="cityChange">
+			<view>picker</view>
+		</picker>
 	</view>
 </template>
 
@@ -15,7 +17,8 @@
 		data() {
 			return {
 				newsId: "",
-				news: {}
+				news: {},
+				city: ['卢文峰', '是傻逼', '深圳', '广州']
 			};
 		},
 		onLoad(e) {
@@ -24,6 +27,10 @@
 			this.initialize()
 		},
 		methods: {
+			// 选择城市
+			cityChange(item) {
+				console.log(item)
+			},
 			initialize() {
 				uni.request({
 					url: 'https://unidemo.dcloud.net.cn/api/news/36kr/' + this.newsId,

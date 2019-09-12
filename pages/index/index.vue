@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		<view">
+		<view>
 			测试
 		</view>
 		<view class="uni-list">
@@ -10,7 +10,7 @@
 					<image class="uni-media-list-logo" :src="item.author_avatar"></image>
 					<view class="uni-media-list-body">
 						<view class="uni-media-list-text-top">{{item.title}}</view>
-						<view class="uni-media-list-text-bottom uni-ellipsis">{{item.created_at}}张杉是傻逼</view>
+						<view class="uni-media-list-text-bottom uni-ellipsis">{{item.created_at}}</view>
 					</view>
 				</view>
 			</view>
