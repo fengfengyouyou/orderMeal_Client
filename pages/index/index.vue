@@ -1,5 +1,8 @@
 <template>
 	<view class="content">
+		<view">
+			测试
+		</view>
 		<view class="uni-list">
 			<view class="uni-list-cell" hover-class="uni-list-cell-hover" v-for="(item,index) in news" :key="index" @tap="openInfo(item.post_id)"
 			 :data-newsid="item.post_id">
