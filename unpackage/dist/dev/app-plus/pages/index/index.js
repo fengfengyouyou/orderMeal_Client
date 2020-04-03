@@ -1,2 +1,0 @@
-setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"uni-media-list-body.",[1],"data-v-5151b0fb { height: auto; }\n.",[1],"uni-media-list-text-top.",[1],"data-v-5151b0fb { line-height: 1.6em; }\n",],undefined,{path:"./pages/index/index.wxss"})();
-document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/index.wxml') } }));

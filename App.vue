@@ -1,5 +1,9 @@
 <script>
+	import url_config from 'common/config.js'
 	export default {
+		globalData:{
+			url_config
+		},
 		onLaunch: function() {
 			console.log('App Launch')
 		},
@@ -12,7 +16,8 @@
 	}
 </script>
 
-<style>
-    @import './common/uni.css';
+<style lang="scss">
+    // @import './common/uni.css';
+    @import './common/app.css';
 	/*每个页面公共css */
 </style>

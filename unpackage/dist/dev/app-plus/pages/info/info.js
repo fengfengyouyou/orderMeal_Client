@@ -1,2 +1,0 @@
-setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"content { padding: ",[0,10]," 2%; width: 96%; -webkit-flex-wrap: warp; -ms-flex-wrap: warp; flex-wrap: warp; }\n.",[1],"title { line-height: 2em; text-align: center; }\n.",[1],"art-content { line-height: 2em; }\n",],undefined,{path:"./pages/info/info.wxss"})();
-document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/info/info.wxml') } }));

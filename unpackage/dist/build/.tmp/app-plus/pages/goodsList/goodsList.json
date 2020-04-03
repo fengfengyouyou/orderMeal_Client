@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-number-box": "/components/uni-number-box/uni-number-box",
+    "uni-badge": "/node-modules/@dcloudio/uni-ui/lib/uni-badge/uni-badge",
+    "uni-popup": "/node-modules/@dcloudio/uni-ui/lib/uni-popup/uni-popup"
+  }
+}

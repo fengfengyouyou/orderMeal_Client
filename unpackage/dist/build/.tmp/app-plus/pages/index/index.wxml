@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="/static/logo.png"></image><view><text class="title">{{456}}</text></view></view>
+<view id="root" class="data-v-665c8276"><view class="logo-box data-v-665c8276"><image src="/static/taitea.jpg" class="data-v-665c8276"></image></view><view class="btn-box data-v-665c8276"><button class="btn data-v-665c8276" type="primary" data-event-opts="{{[['tap',[['toList',['$event']]]]]}}" bindtap="__e">开始订餐</button></view></view>

@@ -3,16 +3,61 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText":"首页"
 			}
-		}, {
-			"path": "pages/info/info",
-			"style": {}
+		}, 
+		{
+			"path": "pages/goodsList/goodsList",
+			"style": {
+				"navigationBarTitleText":"商品列表",
+				"enablePullDownRefresh": true
+			}
+		}, 
+		{
+			"path": "pages/mine/index/index",
+			"style": {
+				"navigationBarTitleText":"个人中心"
+			}
+		}, 
+		{
+			"path": "pages/mine/goodsList/goodsList",
+			"style": {
+				"navigationBarTitleText":"商品管理",
+				"enablePullDownRefresh":true
+			}
+		}, 
+		{
+			"path": "pages/mine/goodsUpdate/goodsUpdate",
+			"style": {
+				"navigationBarTitleText":"商品修改"
+			}
+		}, 
+		{
+			"path": "pages/mine/goodsAdd/goodsAdd",
+			"style": {
+				"navigationBarTitleText":"商品添加"
+			}
+		}, 
+		{
+			"path": "pages/mine/test/test",
+			"style": {
+				"navigationBarTitleText":"测试"
+			}
 		}
-	],
+        ,{
+            "path" : "pages/mine/order/order",
+            "style" : {
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/mine/order_detail/order_detail",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "呔茶",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
@@ -20,8 +65,31 @@
 		"current": 0, //当前激活的模式（list 的索引项）
 		"list": [{
 			"name": "test", //模式名称
-			"path": "pages/info/info", //启动页面，必选
-			"query": "newsId=5158607"
+			"path": "pages/index/index" //启动页面，必选
+			// "path": "pages/goodsList/goodsList"
+			// "query": "newsId=5158607"
+		}]
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/img/1.png",
+			"selectedIconPath": "static/img/2.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/goodsList/goodsList",
+			"iconPath": "static/img/3.png",
+			"selectedIconPath": "static/img/4.png",
+			"text": "商品列表"
+		}, {
+			"pagePath": "pages/mine/index/index",
+			"iconPath": "static/img/3.png",
+			"selectedIconPath": "static/img/4.png",
+			"text": "我的"
 		}]
 	}
 }
